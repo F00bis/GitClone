@@ -16,6 +16,8 @@ func main() {
 	switch os.Args[1] {
 	case "init":
 		commands.Init()
+	case "catfile":
+		commands.CatFile()
 	default:
 		fmt.Printf("Command Not Recognized")
 	}
